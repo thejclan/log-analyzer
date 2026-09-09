@@ -1,3 +1,5 @@
+FAILED_LOGIN_THRESHOLD = 3
+
 success_count = 0
 failed_count = 0
 failed_users = {}
@@ -27,5 +29,5 @@ print(f"Login failed: {failed_count}")
 print("\nWarning:")
 
 for user, count in failed_users.items():
-    if count >= 3:
+    if count >= FAILED_LOGIN_THRESHOLD:
         print(f"{user} has {count} failed login attempts")
