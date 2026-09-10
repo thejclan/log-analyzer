@@ -16,3 +16,8 @@ A simple Python program for analyzing login logs.
 ## Usage
 
 Run `analyzer.py` with Python 3.
+
+## Future Improvements
+
+- Analyze suspicious IP addresses
+- Support more log formats
