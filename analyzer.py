@@ -31,6 +31,8 @@ with open("log.txt", "r") as file:
 
 print(f"Login success: {success_count}")
 print(f"Login failed: {failed_count}")
+print(f"Unique failed users: {len(failed_users)}")
+print(f"Unique failed IPs: {len(failed_ips)}")
 
 print("\nWarning - Users:")
 
